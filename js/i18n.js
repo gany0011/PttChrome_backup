@@ -9,7 +9,7 @@ function i18n(str) {
 }
 
 function setupI18n(callback) {
-  var lang = 'zh-TW';
+  var lang = getLang();
   i18n_val = locale[lang];
 }
 
