@@ -23,5 +23,5 @@ function getLang() {
     lang = 'en-US';
   }
   lang = lang.replace('-', '_');
-  return 'zh_TW';
+  return lang;
 }
