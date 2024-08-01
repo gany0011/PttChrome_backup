@@ -1,7 +1,7 @@
 function GoogleDrive(app) {
   this.app = app;
 
-  this.clientId = '569657632946-i88sl1555v27jaji65nppshj7svopn2a.apps.googleusercontent.com';
+  this.clientId = '308642806412-m6rn7lqr4fb4od1fbqc4sdkjqkqn6rk0.apps.googleusercontent.com';
   this.permissionScopes = [
       'https://www.googleapis.com/auth/drive.appdata',
       'https://www.googleapis.com/auth/drive.file'
